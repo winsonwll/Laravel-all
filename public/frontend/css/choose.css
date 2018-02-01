@@ -1,0 +1,354 @@
+.u-btn-seat {
+    background-image: url(../images/seat.d68b0069.png);
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    margin-right: 15px;
+}
+.activity-info, .ticket-select {
+    position:relative;
+    z-index:9;
+    border-bottom:1px solid #e6e6e6
+}
+.ticket-select {
+    background:#fff;
+    height:50px
+}
+.ticket-select .ticket-categories, .ticket-select .ticket-event {
+    width:49.5%;
+    float:left;
+    height:50px
+}
+.ticket-select .line {
+    width:1px;
+    height:30px;
+    background-color:#e6e6e6;
+    margin-top:10px;
+    float:left
+}
+.activity-info {
+    background-color:#fff;
+    height:45px;
+    line-height:45px;
+    margin-top:45px;
+    display:block
+}
+.activity-info .activity-name {
+    color:#262626;
+    font-size:15px;
+    position:absolute;
+    left:15px;
+    right:110px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden
+}
+.activity-info .score {
+    font-size:17px;
+    color:#ffb238;
+    position:absolute;
+    right:45px
+}
+.activity-info .score.no-score {
+    font-size:14px
+}
+.activity-info .score .score-text {
+    font-size:12px
+}
+.saler-container .saler-head {
+    height:30px;
+    line-height:30px;
+    padding-left:15px;
+    font-size:12px;
+    color:#666
+}
+.saler-container .saler-list .saler-item {
+    background-color:#fff;
+    margin-bottom:10px
+}
+.saler-container .saler-list .saler-item .head {
+    height:35px;
+    line-height:35px;
+    padding:0 15px;
+    border-top:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6
+}
+.num-picker-wrap, .saler-container .saler-list .saler-item .tickets ul .right.equalPrice {
+    line-height:50px
+}
+.saler-container .saler-list .saler-item .head .left {
+    float:left
+}
+.saler-container .saler-list .saler-item .head .left>* {
+    display:inline-block;
+    vertical-align:middle
+}
+.saler-container .saler-list .saler-item .head .left .icon {
+    width:27px;
+    margin-right:5px
+}
+.saler-container .saler-list .saler-item .head .left .text {
+    font-size:13px;
+    color:#666
+}
+.saler-container .saler-list .saler-item .head .delivery-time {
+    float:right;
+    font-size:12px;
+    color:#71bffc
+}
+.saler-container .saler-list .saler-item .tickets ul {
+    padding:0 15px;
+    overflow:hidden
+}
+.saler-container .saler-list .saler-item .tickets ul .left {
+    overflow:hidden;
+    margin:10px 0;
+    border-right:1px solid #e6e6e6;
+    height:50px;
+    position:relative
+}
+.saler-container .saler-list .saler-item .tickets ul .left .area {
+    font-size:15px;
+    color:#262626;
+    margin-top:3px
+}
+.saler-container .saler-list .saler-item .tickets ul .left .remain {
+    font-size:12px;
+    color:#999;
+    right:10px;
+    bottom:10px;
+    position:absolute
+}
+.saler-container .saler-list .saler-item .tickets ul .left .hint {
+    margin-top:5px
+}
+.saler-container .saler-list .saler-item .tickets ul .left .hint span {
+    font-size:12px;
+    color:#999;
+    padding:0 1px;
+    border:1px solid #e6e6e6;
+    border-radius:2px
+}
+.saler-container .saler-list .saler-item .tickets ul .right {
+    float:right;
+    width:125px;
+    text-align:center;
+    height:50px;
+    position:relative
+}
+.saler-container .saler-list .saler-item .tickets ul .right.equalPrice .hint {
+    display:none
+}
+.saler-container .saler-list .saler-item .tickets ul .right.selected .check {
+    background-position:0 -17px
+}
+.saler-container .saler-list .saler-item .tickets ul .right .check {
+    position:absolute;
+    right:0;
+    top:50%;
+    margin-top:-8px
+}
+.saler-container .saler-list .saler-item .tickets ul .right .hint {
+    color:#fff;
+    font-size:12px;
+    margin-top:5px
+}
+.saler-container .saler-list .saler-item .tickets ul .right .hint .discount, .saler-container .saler-list .saler-item .tickets ul .right .hint .premium {
+    background-color:#b5dc76;
+    padding:1px 5px;
+    border-radius:3px
+}
+.saler-container .saler-list .saler-item .tickets ul .right .hint .premium {
+    background-color:#f9977d
+}
+.saler-container .saler-list .saler-item .tickets ul .right .price-wrap .unit {
+    font-size:12px;
+    color:#ff2661;
+    position:relative;
+    right:-3px
+}
+.saler-container .saler-list .saler-item .tickets ul .right .price-wrap .price {
+    font-size:20px;
+    color:#ff2661
+}
+.num-picker {
+    float:right;
+    margin-right:15px
+}
+.num-picker>* {
+    display:inline-block;
+    vertical-align:middle
+}
+.no-tickets, .seat, .seatImg {
+    display:none
+}
+.num-picker .input, .num-picker .minus, .num-picker .plus {
+    background-color:#f4f4f4;
+    width:30px;
+    height:30px
+}
+.num-picker .input .line, .num-picker .minus .line, .num-picker .plus .line {
+    background-color:#959595
+}
+.num-picker .input.disabled, .num-picker .minus.disabled, .num-picker .plus.disabled {
+    background-color:#fbfbfb
+}
+.num-picker .input.disabled .line, .num-picker .minus.disabled .line, .num-picker .plus.disabled .line {
+    background-color:#cfd3d9
+}
+.gap, body {
+    background-color:#f2f2f2
+}
+.num-picker .input {
+    width:45px;
+    text-align:center;
+    border:0;
+    font-size:17px;
+    color:#262626
+}
+.num-picker .minus .minus-line, .num-picker .plus .plus-line-H {
+    width:14px;
+    height:2px;
+    margin:14px auto 0
+}
+.num-picker .plus .plus-line-V {
+    height:14px;
+    width:2px;
+    margin:-8px auto 0
+}
+.no-tickets .icon {
+    background-image:url(//dn-piaoniu-static.qbox.me/m/activity/img/noTickets.512fb139.png);
+    width:50px;
+    height:50px;
+    background-size:50px 50px;
+    margin:0 auto
+}
+.no-tickets .text {
+    font-size:15px;
+    color:#999;
+    text-align:center;
+    margin-top:20px
+}
+.seat {
+    position:absolute;
+    right:15px;
+    top:10px
+}
+.seat .seat-icon {
+    background-image:url(//dn-piaoniu-static.qbox.me/m/activity/img/seat.d68b0069.png);
+    width:25px;
+    height:25px;
+    background-size:25px 25px;
+    margin:0 auto
+}
+.gap {
+    width:100%;
+    height:8px;
+    position:relative;
+    z-index:10
+}
+.num-picker-wrap, .seatImg {
+    position:fixed;
+    left:0;
+    width:100%
+}
+.main {
+    margin-bottom:109px
+}
+.seatImg {
+    height:100%;
+    top:0;
+    z-index:10;
+    background-color:#000
+}
+.seatImg .table-cell {
+    display:table-cell;
+    vertical-align:middle
+}
+.seatImg .table-cell img {
+    width:100%
+}
+.num-picker-wrap {
+    bottom:45px;
+    height:50px;
+    background:#fff
+}
+.num-picker-wrap .text {
+    float:left;
+    margin-left:15px
+}
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 45px;
+    border-top: 1px solid #e6e6e6;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+.bottom-bar .new-user-discount {
+    position: absolute;
+    top: 50%;
+    height: 17px;
+    background: #ff5636;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    margin-top: -8.5px;
+    font-size: 12px;
+    right: 125px;
+    padding: 0 2px;
+    display: none;
+    max-width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.bottom-bar .price {
+    float: left;
+    font-size: 13px;
+    height: 45px;
+    line-height: 35px;
+}
+.bottom-bar .price span {
+    vertical-align: bottom;
+}
+.bottom-bar .price .tt {
+    color: #666666;
+    font-size: 13px;
+    margin-left: 13px;
+}
+.bottom-bar .price .unit {
+    color: #ff5636;
+    font-size: 10px;
+}
+.bottom-bar .price .num {
+    color: #ff5636;
+    font-size: 20px;
+}
+.bottom-bar .price .origin-num {
+    position: absolute;
+    bottom: 5px;
+    line-height: 10px;
+    left: 72px;
+    font-size: 12px;
+    transform: scale(0.8);
+    color: #999;
+    text-decoration: line-through;
+}
+.bottom-bar .btn-buy {
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 45px;
+    line-height: 45px;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    background-color: #ff5636;
+    float: right;
+}

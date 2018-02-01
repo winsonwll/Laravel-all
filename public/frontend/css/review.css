@@ -1,0 +1,900 @@
+.u-btn-comt { color: #fff;font-size: 15px; margin-right: 10px;}
+.list-item-container {
+	margin:15px;
+	border-bottom:1px solid #e6e6e6
+}
+.list-item-container .user-head-portrait {
+	position:relative;
+	width:40px;
+	float:left
+}
+.list-item-container .user-head-portrait .head-icon {
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:1px solid #f1f1f1
+}
+.list-item-container .user-head-portrait .user-level {
+	background:#ff5636;
+	width:13px;
+	height:13px;
+	border-radius:50%;
+	position:absolute;
+	right:0;
+	bottom:-3px;
+	border:2px solid #fff;
+	text-align:center
+}
+.list-item-container .user-head-portrait .user-level .text {
+	transform:scale(.8);
+	color:#fff;
+	font-size:12px;
+	font-style:italic;
+	font-family:Athelas;
+	font-weight:700;
+	position:absolute;
+	left:1px
+}
+.list-item-container .user-head-portrait .user-level small {
+	color:#fff;
+	position:absolute;
+	font-size:12px;
+	transform:scale(.6);
+	font-style:italic;
+	left:5px;
+	top:2px;
+	font-family:PingFang SC Semibold;
+	font-weight:400;
+	font-weight:700
+}
+.list-item-container .user-head-portrait .user-level.fresh {
+	width:25px;
+	border-radius:12px
+}
+.list-item-container .user-head-portrait .user-level.fresh .text {
+	font-size:12px;
+	transform:scale(.8);
+	font-style:inherit;
+	font-family:inherit;
+	font-weight:inherit;
+	text-align:right
+}
+.list-item-container .user-head-portrait .user-level.fresh .text small, .list-item-container .user-head-portrait .user-level.fresh .text span {
+	display:none
+}
+.list-item-container .comment-container {
+	margin-left:52px
+}
+.list-item-container .comment-container>* {
+	margin-bottom:15px
+}
+.list-item-container .comment-container>:first-child {
+	margin-bottom:0
+}
+.list-item-container .comment-container .comment-imgs .img-container {
+	width:80px;
+	display:inline-block;
+	position:relative;
+	margin-right:10px
+}
+.list-item-container .comment-container .comment-imgs .img-container:before {
+	content:'';
+	display:block;
+	padding-top:100%
+}
+.list-item-container .comment-container .comment-imgs .img-container .img {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-size:cover;
+	background-position:center center
+}
+.list-item-container .comment-container .comment-text {
+	color:#666;
+	font-size:14px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:5;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-family:Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+	word-break:break-word
+}
+.list-item-container .comment-container .comment-header {
+	height:42px;
+	width:100%;
+	position:relative
+}
+.list-item-container .comment-container .comment-header>* {
+	display:inline-block;
+	vertical-align:top
+}
+.list-item-container .comment-container .bottom .interaction .modify-container, .no-comment {
+	display:none
+}
+.list-item-container .comment-container .comment-header .user-name {
+	max-width:120px;
+	line-height:42px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden
+}
+.list-item-container .comment-container .comment-header .stars {
+	width:90px;
+	line-height:42px;
+	margin-left:5px
+}
+.list-item-container .comment-container .comment-header .stars img {
+	width:12px;
+	height:12px;
+	margin-right:1px
+}
+.list-item-container .comment-container .comment-activity-container {
+	height:60px;
+	background:#f1f1f1
+}
+.list-item-container .comment-container .comment-activity-container .activity-poster {
+	width:38px;
+	height:50px;
+	border-radius:3px;
+	margin:5px;
+	float:left
+}
+.list-item-container .comment-container .comment-activity-container .activity-name {
+	height:100%;
+	margin-left:52px;
+	padding-top:12px;
+	font-size:12px;
+	padding-right:15px
+}
+.list-item-container .comment-container .bottom {
+	overflow:hidden
+}
+.list-item-container .comment-container .bottom .publish-time {
+	color:#999;
+	font-size:12px;
+	float:left
+}
+.list-item-container .comment-container .bottom .interaction {
+	float:right
+}
+.list-item-container .comment-container .bottom .interaction .interaction-comment>*, .list-item-container .comment-container .bottom .interaction .modify-container>*, .list-item-container .comment-container .bottom .interaction .support-container>* {
+	vertical-align:middle
+}
+.list-item-container .comment-container .bottom .interaction .comment-num, .list-item-container .comment-container .bottom .interaction .modify-content, .list-item-container .comment-container .bottom .interaction .support-num {
+	font-size:12px;
+	color:#999
+}
+.list-item-container .comment-container .bottom .interaction .comment-icon, .list-item-container .comment-container .bottom .interaction .modify-icon, .list-item-container .comment-container .bottom .interaction .support-icon {
+	width:13px
+}
+.list-container, .no-comment {
+	position:fixed;
+	width:100%;
+	bottom:0
+}
+.list-item-container .comment-container .bottom .interaction .modify-container, .list-item-container .comment-container .bottom .interaction .support-container {
+	margin-left:16px
+}
+.list-container {
+	top:45px
+}
+.list-container ul {
+	overflow:hidden
+}
+.navbar .btn-right {
+	top:50%;
+	margin-top:-8px;
+	color:#5fb7fc;
+	font-size:15px
+}
+.no-comment {
+	top:45px;
+	background:#f2f2f2
+}
+.no-comment .icon {
+	background-image:url(../images/noComment.ad91df14.png);
+	width:50px;
+	height:40px;
+	background-size:100% 100%;
+	margin:120px auto 20px
+}
+.no-comment .text {
+	text-align:center;
+	color:#999;
+	font-size:15px
+}
+.list-item-container {
+    margin: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.list-item-container .user-head-portrait {
+    position: relative;
+    width: 40px;
+    float: left;
+}
+.list-item-container .user-head-portrait .head-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50%;
+    border: 1px solid #f1f1f1;
+}
+.list-item-container .user-head-portrait .user-level {
+    background: #ff5636;
+    width: 13px;
+    height: 13px;
+    border-radius: 50% 50%;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.list-item-container .user-head-portrait .user-level .text {
+    transform: scale(0.8);
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Athelas;
+    font-weight: bold;
+    position: absolute;
+    left: 1px;
+}
+.list-item-container .user-head-portrait .user-level small {
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    transform: scale(0.6);
+    font-style: italic;
+    left: 5px;
+    top: 2px;
+    font-family: PingFang SC Semibold;
+    font-weight: normal;
+    font-weight: bold;
+}
+.list-item-container .user-head-portrait .user-level.fresh {
+    width: 25px;
+    border-radius: 12px;
+}
+.list-item-container .user-head-portrait .user-level.fresh .text {
+    font-size: 12px;
+    transform: scale(0.8);
+    font-style: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-align: right;
+}
+.list-item-container .user-head-portrait .user-level.fresh .text span,
+.list-item-container .user-head-portrait .user-level.fresh .text small {
+    display: none;
+}
+.list-item-container .comment-container {
+    margin-left: 52px;
+}
+.list-item-container .comment-container > * {
+    margin-bottom: 15px;
+}
+.list-item-container .comment-container > *:first-child {
+    margin-bottom: 0px;
+}
+.list-item-container .comment-container .comment-imgs .img-container {
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.list-item-container .comment-container .comment-imgs .img-container:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.list-item-container .comment-container .comment-imgs .img-container .img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center center;
+}
+.list-item-container .comment-container .comment-text {
+    color: #666;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+    word-break: break-word;
+}
+.list-item-container .comment-container .comment-header {
+    height: 42px;
+    width: 100%;
+    position: relative;
+}
+.list-item-container .comment-container .comment-header > * {
+    display: inline-block;
+    vertical-align: top;
+}
+.list-item-container .comment-container .comment-header .user-name {
+    max-width: 120px;
+    line-height: 42px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list-item-container .comment-container .comment-header .stars {
+    width: 90px;
+    line-height: 42px;
+    margin-left: 5px;
+}
+.list-item-container .comment-container .comment-header .stars img {
+    width: 12px;
+    height: 12px;
+    margin-right: 1px;
+}
+.list-item-container .comment-container .comment-activity-container {
+    height: 60px;
+    background: #f1f1f1;
+}
+.list-item-container .comment-container .comment-activity-container .activity-poster {
+    width: 38px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 5px;
+    float: left;
+}
+.list-item-container .comment-container .comment-activity-container .activity-name {
+    height: 100%;
+    margin-left: 52px;
+    padding-top: 12px;
+    font-size: 12px;
+    padding-right: 15px;
+}
+.list-item-container .comment-container .bottom {
+    overflow: hidden;
+}
+.list-item-container .comment-container .bottom .publish-time {
+    color: #999;
+    font-size: 12px;
+    float: left;
+}
+.list-item-container .comment-container .bottom .interaction {
+    float: right;
+}
+.list-item-container .comment-container .bottom .interaction .interaction-comment > *,
+.list-item-container .comment-container .bottom .interaction .support-container > *,
+.list-item-container .comment-container .bottom .interaction .modify-container > * {
+    vertical-align: middle;
+}
+.list-item-container .comment-container .bottom .interaction .comment-num,
+.list-item-container .comment-container .bottom .interaction .support-num,
+.list-item-container .comment-container .bottom .interaction .modify-content {
+    font-size: 12px;
+    color: #999;
+}
+.list-item-container .comment-container .bottom .interaction .support-icon,
+.list-item-container .comment-container .bottom .interaction .modify-icon,
+.list-item-container .comment-container .bottom .interaction .comment-icon {
+    width: 13px;
+}
+.list-item-container .comment-container .bottom .interaction .support-container,
+.list-item-container .comment-container .bottom .interaction .modify-container {
+    margin-left: 16px;
+}
+.list-item-container .comment-container .bottom .interaction .modify-container {
+    display: none;
+}
+.stars {
+    width: 75px;
+    line-height: 42px;
+    margin-left: 5px;
+}
+.stars img {
+    width: 12px;
+    height: 12px;
+    margin-right: 1px;
+}
+.user-head-portrait {
+    position: relative;
+    width: 40px;
+    float: left;
+}
+.user-head-portrait .head-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50%;
+    border: 1px solid #f1f1f1;
+}
+.user-head-portrait .user-level {
+    background: #ff5636;
+    width: 13px;
+    height: 13px;
+    border-radius: 50% 50%;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.user-head-portrait .user-level .text {
+    transform: scale(0.8);
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Athelas;
+    font-weight: bold;
+    position: absolute;
+    left: 1px;
+}
+.user-head-portrait .user-level small {
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    transform: scale(0.6);
+    font-style: italic;
+    left: 5px;
+    top: 2px;
+    font-family: PingFang SC Semibold;
+    font-weight: normal;
+    font-weight: bold;
+}
+.user-head-portrait .user-level.fresh,
+.user-head-portrait .user-level.official {
+    width: 25px;
+    border-radius: 12px;
+    right: -6px;
+}
+.user-head-portrait .user-level.fresh .text,
+.user-head-portrait .user-level.official .text {
+    font-size: 12px;
+    transform: scale(0.8);
+    font-style: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-align: right;
+}
+.user-head-portrait .user-level.fresh .text span,
+.user-head-portrait .user-level.official .text span,
+.user-head-portrait .user-level.fresh .text small,
+.user-head-portrait .user-level.official .text small {
+    display: none;
+}
+.user-head-portrait .user-level.official {
+    background-color: #ffb238;
+}
+.input-wrap {
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 0px;
+    right: 85px;
+}
+.input-wrap input {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 15px;
+}
+.submit-btn {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 30px;
+    background: #ff5636;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -15px;
+    background-color: #499afe;
+    right: 0px;
+    left: initial;
+}
+.reply-item-container {
+    padding: 15px;
+    background: #fff;
+}
+.reply-item-container.last-child .comment-container {
+    border-bottom: none;
+}
+.reply-item-container .comment-container {
+    margin-left: 52px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+}
+.reply-item-container .comment-container .comment-content {
+    color: #666;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+    word-break: break-word;
+}
+.reply-item-container .comment-container .comment-content .reply-name {
+    color: #71bffc;
+}
+.reply-item-container .comment-container .comment-header {
+    height: 42px;
+    width: 100%;
+    position: relative;
+}
+.reply-item-container .comment-container .comment-header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.reply-item-container .comment-container .comment-header .user-name {
+    max-width: 120px;
+    line-height: 42px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reply-item-container .comment-container .comment-header .reply-time {
+    font-size: 12px;
+    float: right;
+    color: #999;
+    line-height: 42px;
+}
+.list-item-container {
+    margin:15px;
+    border-bottom:1px solid #e6e6e6
+}
+.list-item-container .user-head-portrait {
+    position:relative;
+    width:40px;
+    float:left
+}
+.list-item-container .user-head-portrait .head-icon {
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:1px solid #f1f1f1
+}
+.list-item-container .user-head-portrait .user-level {
+    background:#ff5636;
+    width:13px;
+    height:13px;
+    border-radius:50%;
+    position:absolute;
+    right:0;
+    bottom:-3px;
+    border:2px solid #fff;
+    text-align:center
+}
+.list-item-container .user-head-portrait .user-level .text {
+    transform:scale(.8);
+    color:#fff;
+    font-size:12px;
+    font-style:italic;
+    font-family:Athelas;
+    font-weight:700;
+    position:absolute;
+    left:1px
+}
+.list-item-container .user-head-portrait .user-level small {
+    color:#fff;
+    position:absolute;
+    font-size:12px;
+    transform:scale(.6);
+    font-style:italic;
+    left:5px;
+    top:2px;
+    font-family:PingFang SC Semibold;
+    font-weight:400;
+    font-weight:700
+}
+.list-item-container .user-head-portrait .user-level.fresh {
+    width:25px;
+    border-radius:12px
+}
+.list-item-container .user-head-portrait .user-level.fresh .text {
+    font-size:12px;
+    transform:scale(.8);
+    font-style:inherit;
+    font-family:inherit;
+    font-weight:inherit;
+    text-align:right
+}
+.list-item-container .user-head-portrait .user-level.fresh .text small, .list-item-container .user-head-portrait .user-level.fresh .text span {
+    display:none
+}
+.list-item-container .comment-container {
+    margin-left:52px
+}
+.list-item-container .comment-container>* {
+    margin-bottom:15px
+}
+.list-item-container .comment-container>:first-child {
+    margin-bottom:0
+}
+.list-item-container .comment-container .comment-imgs .img-container {
+    width:80px;
+    display:inline-block;
+    position:relative;
+    margin-right:10px
+}
+.list-item-container .comment-container .comment-imgs .img-container:before {
+    content:'';
+    display:block;
+    padding-top:100%
+}
+.list-item-container .comment-container .comment-imgs .img-container .img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-size:cover;
+    background-position:center center
+}
+.list-item-container .comment-container .comment-text {
+    color:#666;
+    font-size:14px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:5;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-family:Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    word-break:break-word
+}
+.list-item-container .comment-container .comment-header {
+    height:42px;
+    width:100%;
+    position:relative
+}
+.list-item-container .comment-container .comment-header>* {
+    display:inline-block;
+    vertical-align:top
+}
+.list-item-container .comment-container .comment-header .user-name {
+    max-width:120px;
+    line-height:42px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden
+}
+.list-item-container .comment-container .comment-header .stars {
+    width:90px;
+    line-height:42px;
+    margin-left:5px
+}
+.list-item-container .comment-container .comment-header .stars img {
+    width:12px;
+    height:12px;
+    margin-right:1px
+}
+.list-item-container .comment-container .comment-activity-container {
+    height:60px;
+    background:#f1f1f1
+}
+.list-item-container .comment-container .comment-activity-container .activity-poster {
+    width:38px;
+    height:50px;
+    border-radius:3px;
+    margin:5px;
+    float:left
+}
+.list-item-container .comment-container .comment-activity-container .activity-name {
+    height:100%;
+    margin-left:52px;
+    padding-top:12px;
+    font-size:12px;
+    padding-right:15px
+}
+.list-item-container .comment-container .bottom {
+    overflow:hidden
+}
+.list-item-container .comment-container .bottom .publish-time {
+    color:#999;
+    font-size:12px;
+    float:left
+}
+.list-item-container .comment-container .bottom .interaction {
+    float:right
+}
+.list-item-container .comment-container .bottom .interaction .interaction-comment>*, .list-item-container .comment-container .bottom .interaction .modify-container>*, .list-item-container .comment-container .bottom .interaction .support-container>* {
+    vertical-align:middle
+}
+.list-item-container .comment-container .bottom .interaction .comment-num, .list-item-container .comment-container .bottom .interaction .modify-content, .list-item-container .comment-container .bottom .interaction .support-num {
+    font-size:12px;
+    color:#999
+}
+.list-item-container .comment-container .bottom .interaction .comment-icon, .list-item-container .comment-container .bottom .interaction .modify-icon, .list-item-container .comment-container .bottom .interaction .support-icon {
+    width:13px
+}
+.list-item-container .comment-container .bottom .interaction .modify-container, .list-item-container .comment-container .bottom .interaction .support-container {
+    margin-left:16px
+}
+.list-item-container .comment-container .bottom .interaction .modify-container {
+    display:none
+}
+body {
+    background:#f2f2f2
+}
+.navbar {
+    z-index:4
+}
+.list-container {
+    position:fixed;
+    width:100%;
+    top:110px;
+    bottom:0
+}
+.list-container ul {
+    overflow:hidden;
+    margin-top:-10px
+}
+.list-container ul:before {
+    content:'';
+    display:none;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:8px;
+    border-color:transparent transparent #fff;
+    margin-left:25px
+}
+.list-container ul.show:before {
+    display:block
+}
+.list-container .input-container {
+    margin:0 15px;
+    position:relative;
+    height:40px;
+    line-height:40px;
+    padding:15px 0 0
+}
+.list-container .detail-comment {
+    background:#fff;
+    border-bottom:1px solid #e6e6e6
+}
+.list-container .detail-comment .list-item-container {
+    padding-top:10px;
+    overflow:hidden;
+    border-bottom:none;
+    margin:0 15px 15px
+}
+.list-container .detail-comment .list-item-container .user-portrait-container .user-head-portrait {
+    z-index:1
+}
+.list-container .detail-comment .list-item-container .comment-container {
+    margin-left:0!important
+}
+.list-container .detail-comment .list-item-container .comment-container .bottom {
+    margin-bottom:0
+}
+.list-container .detail-comment .list-item-container .comment-container .comment-imgs .img-container {
+    width:32%!important;
+    margin-right:1%!important
+}
+.list-container .detail-comment .list-item-container .comment-container .comment-header .user-name {
+    max-width:180px!important;
+    margin-left:10px!important
+}
+.list-container .detail-comment .list-item-container .comment-container .comment-text {
+    margin-top:20px;
+    line-height:1.5;
+    font-size:16px!important;
+    -webkit-line-clamp:initial!important
+}
+.list-container .detail-comment .list-item-container .comment-container .comment-activity-container {
+    position:absolute;
+    top:-65px;
+    width:100%;
+    left:0
+}
+.list-container .detail-comment .list-item-container .comment-container .comment-activity-container .activity-name {
+    font-size:14px
+}
+.list-container .detail-comment .list-item-container .comment-container .comment-activity-container .activity-poster {
+    margin-left:15px!important
+}
+.list-container .input-container {
+    margin: 0 15px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding: 15px 0 0;
+}
+.input-wrap {
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 0px;
+    right: 85px;
+}
+.input-wrap input {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 15px;
+}
+.submit-btn {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 30px;
+    background: #ff5636;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -15px;
+    background-color: #499afe;
+    right: 0px;
+    left: initial;
+}
+.reply-item-container {
+    padding: 15px;
+    background: #fff;
+}
+.reply-item-container.last-child .comment-container {
+    border-bottom: none;
+}
+.reply-item-container .comment-container {
+    margin-left: 52px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+}
+.reply-item-container .comment-container .comment-content {
+    color: #666;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+    word-break: break-word;
+}
+.reply-item-container .comment-container .comment-content .reply-name {
+    color: #71bffc;
+}
+.reply-item-container .comment-container .comment-header {
+    height: 42px;
+    width: 100%;
+    position: relative;
+}
+.reply-item-container .comment-container .comment-header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.reply-item-container .comment-container .comment-header .user-name {
+    max-width: 120px;
+    line-height: 42px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reply-item-container .comment-container .comment-header .reply-time {
+    font-size: 12px;
+    float: right;
+    color: #999;
+    line-height: 42px;
+}

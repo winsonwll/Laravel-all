@@ -1,0 +1,139 @@
+.inform-success-pop {
+	height:206px;
+	position:fixed;
+	z-index:11;
+	left:26px;
+	right:26px;
+	top:50%;
+	margin-top:-103px;
+	background:#fff;
+	border-radius:10px;
+}
+.inform-success-pop .concern-success-icon {
+	background-image:url(../images/concern.0fd988bf.png);
+	width:25px;
+	height:23px;
+	background-size:50px 23px;
+	background-position:25px 0;
+	margin:44px auto 5px
+}
+.inform-success-pop .confirm-btn {
+	height:50px;
+	color:#ff5636;
+	text-align:center;
+	line-height:50px;
+	position:absolute;
+	width:100%;
+	bottom:0;
+	border-top:1px solid #e6e6e6
+}
+.inform-success-pop .inform-message {
+	color:#666;
+	text-align:center
+}
+.inform-success-pop .concern-success-text {
+	font-size:18px;
+	font-weight:600;
+	text-align:center;
+	margin-bottom:15px
+}
+body {
+	font-family:PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+	line-height:1.8;
+	color:#333;
+}
+.notice .content, p {
+	font-size:12px;
+	color:#666
+}
+dd {
+	margin-left:15px
+}
+p {
+	line-height:2
+}
+img {
+	margin-top:22px;
+	margin-bottom:15px;
+	width:100%!important;
+	height:auto!important
+}
+.more-detail .title, .notice .title {
+	margin-bottom:20px
+}
+.notice {
+	padding-top:15px;
+	background:#fff
+}
+.notice .content {
+	padding:0 15px
+}
+.more-detail {
+	padding:30px 15px;
+	background:#fff
+}
+.warm-remind {
+	margin-top:10px;
+	background:#fff;
+	padding-top:18px;
+}
+.warm-remind .item {
+	position:relative;
+	margin-top:15px
+}
+.warm-remind .item .item-left {
+	width:87px;
+	position:absolute;
+	text-align:center
+}
+.warm-remind .item .item-right {
+	margin-left:87px;
+	margin-right:20px;
+	font-size:12px;
+	color:#666;
+	border-bottom:1px solid #e6e6e6;
+	padding-bottom:15px
+}
+.bottom-btn {
+	font-size:16px;
+	line-height:49px;
+	height:49px;
+	color:#fff;
+	text-align:center;
+	background-color:#ff2661;
+	position:fixed;
+	bottom:0;
+	width:100%
+}
+.title {
+	position:relative;
+	text-align:center;
+	width:220px;
+	margin:0 auto
+}
+.title .left-circle, .title .right-circle {
+	position:absolute;
+	left:65px;
+	width:6px;
+	height:6px;
+	background:#d4d4bf;
+	top:50%;
+	border-radius:50%;
+	margin-top:-3px
+}
+.title .right-circle {
+	right:65px;
+	left:auto
+}
+.title .left-line, .title .right-line {
+	position:absolute;
+	left:0;
+	width:60px;
+	height:1px;
+	background:#d4d4bf;
+	top:50%
+}
+.title .right-line {
+	left:auto;
+	right:0
+}

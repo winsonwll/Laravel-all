@@ -1,0 +1,155 @@
+.person-info {
+	width:100%;
+	height:120px;
+	background:linear-gradient(to right, #FC5341, #FC2E61);
+	overflow:hidden;
+	position:relative;
+}
+.person-info .person-img-wrap {
+	width:64px;
+	height:64px;
+	background-image:url(../images/personImgWrap.2109c146.png);
+	background-size:64px 64px;
+	margin-left:18px;
+	margin-top:28px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute
+}
+.person-info .person-img-wrap .person-img {
+	width:56px;
+	height:56px;
+	border-radius:50%;
+	margin-left:4px;
+	margin-top:4px
+}
+.person-info .person-img-wrap .person-img img {
+	width:56px;
+	height:56px;
+	border-radius:50%
+}
+.person-info .person-phone {
+	height:100%;
+	margin-left:102px
+}
+.person-info .person-phone .name-phone {
+	color:#fff;
+	margin-top:44px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	padding-right:100px;
+	white-space:nowrap
+}
+.person-info .person-phone .phone {
+	margin-top:10px;
+	color:#fff;
+	font-size:12px
+}
+.person-info .member-level {
+	height:30px;
+	width:78px;
+	background-color:#CC294E;
+	position:absolute;
+	right:0;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	bottom:38px;
+	border-radius:15px 0 0 15px;
+	font-size:12px;
+	display:none
+}
+.logout, .myorder-check-all, .row-contain .row-text {
+	line-height:44px;
+	text-align:center
+}
+.person-info .member-level .big {
+	font-family:Athelas;
+	font-weight:700;
+	font-style:italic;
+	font-size:18px
+}
+.person-info .member-level .small {
+	font-family:PingFang;
+	font-size:12px;
+	transform:scale(.8);
+	vertical-align:-1px;
+	font-style:italic;
+	display:inline-block
+}
+.person-info .member-level .text {
+	margin-left:4px
+}
+.row-contain {
+	height:44px;
+	background-color:#fff;
+	margin-top:10px;
+	position:relative
+}
+.row-contain .row-icon {
+	background-image:url(../images/myorder.da263825.png);
+	width:16px;
+	height:16px;
+	background-size:16px 16px;
+	position:absolute;
+	top:50%;
+	margin-top:-8px;
+	left:14px
+}
+.row-contain .row-text {
+	position:absolute;
+	left:42px
+}
+.row-contain .row-arrow {
+	width:7px;
+	height:12px;
+	background-image:url(../images/myorderRightArrow.e2d6e11d.png);
+	background-size:7px 12px;
+	right:15px;
+	position:absolute;
+	top:50%;
+	margin-top:-6px
+}
+.myorder-check-all {
+	position:absolute;
+	right:34px;
+	font-size:12px;
+	color:#999
+}
+.mycoupon .mycoupon-icon {
+	background-image:url(../images/couponIcon.1de6e71f.png)
+}
+.logout {
+	color:red;
+	display:none
+}
+.concern-saw {
+	height:60px;
+	background:#fff;
+	width:100%
+}
+.concern-saw .item {
+	float:left;
+	width:50%;
+	border-right:1px solid #f1f1f1;
+	height:42px;
+	margin-top:9px;
+	text-align:center;
+	line-height:42px;
+	box-sizing:border-box
+}
+.concern-saw .item img {
+	width:20px;
+	height:17px
+}
+.concern-saw .item .text {
+	font-size:14px;
+	margin-left:10px;
+	display:inline-block;
+	vertical-align:3px
+}
+body, html {
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2
+}

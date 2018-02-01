@@ -1,0 +1,127 @@
+body {
+	background-color:#f2f2f2
+}
+.fields {
+	background-color:#fff
+}
+.fields .field {
+	border-bottom:1px solid #e6e6e6;
+	overflow:hidden;
+	height:44px;
+	line-height:44px;
+	margin-left:14px;
+	display:block
+}
+.fields .field .label {
+	float:left;
+	width:28px
+}
+.fields .field .input {
+	width:200px;
+	padding-left:0;
+	box-sizing:border-box;
+	float:left;
+	height:44px;
+	line-height:44px;
+	border:none;
+	margin-left:15px;
+	font-size:14px
+}
+.fields .field .ph {
+	color:#aaa;
+	font-size:14px
+}
+.fields .field-city, .fields .field-district {
+	display:none
+}
+.fields .select {
+	position:relative
+}
+.fields .select select {
+	opacity:0;
+	top:0;
+	left:0;
+	border:none;
+	position:absolute;
+	height:100%
+}
+.btn {
+	background-color:#ff5636;
+	color:#fff;
+	border-radius:4px;
+	margin:20px 15px;
+	text-align:center;
+	height:49px;
+	line-height:49px
+}
+
+.addresses {
+    background: #fff;
+}
+.item-address {
+    padding:20px 0 25px;
+    position:relative
+}
+.item-address .info {
+    font-size:15px;
+    color:#000;
+    margin-left:15px;
+    margin-bottom:10px
+}
+.item-address .address {
+    margin-left:15px;
+    font-size:14px;
+    color:#666
+}
+.item-address .check {
+    right:8px;
+    margin-top:-8px;
+    top:50%;
+    position:absolute
+}
+.bottombar {
+    position:fixed;
+    bottom:0;
+    width:100%
+}
+.bottombar .btn { height: 40px; line-height: 40px;
+    color:#fff;
+    margin:3px auto;
+    width:100px;
+    text-align:center;
+    border-radius:4px;
+    font-size:16px;
+    background-color:#ff5636
+}
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid #e0e0e0;
+    z-index: 4;
+}
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bottombar .btn {
+    color: #fff;
+    margin: 3px auto;
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ff5636;
+}
+.check {
+    background-image: url(../images/check.76f13e73.png);
+    width: 17px;
+    height: 17px;
+    background-size: 17px 34px;
+}
+.selected .check {
+    background-position: 0 -17px;
+}

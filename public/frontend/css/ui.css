@@ -1,0 +1,330 @@
+.bottombar .button, .btn-submit, .citylist .others, .loading, .navbar .title, .no-result .text {
+	text-align:center
+}
+.navbar, .tableview .tbv-section {
+	border-bottom:1px solid #e6e6e6
+}
+.field .input, .popbox {
+	box-sizing:border-box
+}
+a, body, h1, h2, h3, input, li, p, ul {
+	margin:0;
+	padding:0;
+	line-height:1.2;
+	color:#262626;
+	font-size:14px;
+	font-family:PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans
+}
+.navbar .btn-left, .navbar .title {
+	font-size:16px;
+	height:44px;
+	line-height:44px
+}
+a {
+	text-decoration:none;
+	-webkit-user-select:none;
+	-webkit-touch-callout:none;
+	-webkit-tap-highlight-color:transparent
+}
+li {
+	list-style-type:none
+}
+input {
+	appearance:none;
+	-webkit-appearance:none;
+	border-radius:0;
+	opacity:1
+}
+.navbar {
+	height:44px;
+	width:100%;
+	background-color:#fff;
+	top:0;
+	box-shadow:0 2px 3px 0 rgba(195, 195, 195, .5);
+	position:fixed;
+	left:0;
+	z-index:10
+}
+.navbar .btn-left {
+	position:absolute;
+	left:14px;
+	top:0
+}
+.navbar .title {
+	max-width:200px;
+	margin:0 auto;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	color:#525252;
+	font-weight:600
+}
+.navbar .btn-right {
+	position:absolute;
+	top:0;
+	right:10px
+}
+.check {
+	background-image:url(//dn-piaoniu-static.qbox.me/m/ui/img/check.76f13e73.png);
+	width:17px;
+	height:17px;
+	background-size:17px 34px
+}
+.selected .check {
+	background-position:0 -17px
+}
+.arr-right {
+	background-image:url(//dn-piaoniu-static.qbox.me/m/ui/img/arr-right.ade38bfd.png);
+	background-size:8px 13px;
+	height:13px;
+	width:8px;
+	position:absolute;
+	top:50%;
+	margin-top:-7px;
+	right:21px
+}
+.tableview {
+	background-color:#f2f2f2
+}
+.tableview .tbv-section {
+	background-color:#fff;
+	margin-bottom:10px
+}
+.tableview .tbv-section .tbv-row {
+	margin-left:19px;
+	height:44px;
+	border-bottom:1px solid #e6e6e6
+}
+.tableview .tbv-section .tbv-row:last-child {
+	border-bottom:none
+}
+.field {
+	display:-webkit-box
+}
+.field .label {
+	display:inline-block;
+	width:100px;
+	line-height:44px;
+	height:44px
+}
+.field .label .star {
+	position:relative;
+	top:2px;
+	margin-right:5px;
+	color:#ff5636
+}
+.field .input {
+	-webkit-box-flex:1;
+	border:none;
+	line-height:44px;
+	height:44px;
+	font-size:14px;
+	padding:0 10px;
+	-webkit-appearance:none
+}
+.popbox {
+	position:fixed;
+	width:100%;
+	top:169px;
+	z-index:9;
+	max-width:320px;
+	left:50%;
+	margin-left:-160px
+}
+.popbox .content {
+	background-color:#fff;
+	border-radius:5px;
+	overflow:hidden;
+	margin:0 15px
+}
+.popbox .close {
+	width:44px;
+	height:44px;
+	position:absolute;
+	top:-55px;
+	background-image:url(//dn-piaoniu-static.qbox.me/m/ui/img/btn-close.f50636bd.png);
+	background-size:44px 44px;
+	background-repeat:no-repeat;
+	left:50%;
+	margin-left:-22px
+}
+.popbox .text {
+	font-size:15px;
+	line-height:1.2;
+	padding:20px;
+	word-break:break-all
+}
+.popbox .text p {
+	font-size:14px;
+	line-height:1.5
+}
+.popbox .text .link {
+	color:#4b90ed
+}
+.popbox .btns {
+	overflow:hidden;
+	border-top:1px solid #c9c9c9
+}
+.popbox .btns button {
+	height:52px;
+	line-height:52px;
+	border:0;
+	font-size:17px;
+	float:left;
+	background-color:#fff;
+	color:#666;
+	text-align:center
+}
+.citylist, .ui-overlay {
+	top:0;
+	left:0;
+	height:100%;
+	position:fixed;
+	width:100%
+}
+.popbox .btns button.active {
+	color:#fff;
+	background-color:#ff2661
+}
+.overlay {
+	z-index:5
+}
+.ui-overlay {
+	opacity:0;
+	display:none;
+	background-color:rgba(0, 0, 0, .6);
+transition:opacity .2s linear;
+	z-index:5
+}
+.citylist {
+	background:#fff;
+	z-index:99;
+	font-size:14px
+}
+.citylist .current {
+	padding:10px;
+	overflow:hidden
+}
+.citylist .current .name {
+	font-size:14px;
+	color:#999;
+	float:left
+}
+.citylist .current .hint {
+	font-size:12px;
+	color:#999;
+	float:right;
+	margin-right:10px
+}
+.citylist .header {
+	padding:10px;
+	color:#999;
+	background-color:#f0f0f0
+}
+.citylist li {
+	font-size:14px;
+	padding:10px 5px;
+	margin-left:10px;
+	border-bottom:1px solid #f8f8f8
+}
+.citylist li.active {
+	color:#ee562c
+}
+.citylist .others {
+	padding:10px;
+	color:#666
+}
+.loading {
+	position:fixed;
+	top:200px;
+	z-index:100;
+	min-width:150px;
+	max-width:325px;
+	padding:0 10px;
+	line-height:50px;
+	color:#fff;
+	font-size:18px;
+	background-color:rgba(0, 0, 0, .8);
+	border-radius:10px;
+	margin-left:-75px;
+	left:50%
+}
+.bottombar {
+	position:fixed;
+	bottom:0;
+	background-color:#fff;
+	width:100%;
+	height:45px;
+	border-top:1px solid #e0e0e0;
+	z-index:4
+}
+.bottombar .logo {
+	border-radius:5px;
+	width:34px;
+	height:34px;
+	position:absolute;
+	top:6px;
+	left:10px;
+	background-image:url(//dn-piaoniu-static.qbox.me/m/ui/downloadbar/img/logo.867762dc.png);
+	background-size:34px 34px
+}
+.bottombar .copywrite {
+	color:#67655f;
+	font-size:12px;
+	line-height:45px;
+	height:45px;
+	padding-left:83px
+}
+.bottombar .button {
+	background-color:#ff2661;
+	font-size:14px;
+	position:absolute;
+	right:0;
+	top:-1px;
+	color:#fff;
+	height:46px;
+	line-height:46px;
+	width:97px
+}
+.overlay, .weixin-tip {
+	position:fixed;
+	top:0
+}
+.no-result, .overlay, .weixin-tip img {
+	width:100%
+}
+.overlay {
+	left:0;
+	background-color:rgba(0, 0, 0, .7);
+	height:100%
+}
+.weixin-tip {
+	display:none;
+	width:100%;
+	z-index:999
+}
+.no-result {
+	display:none;
+	position:absolute;
+	top:91px;
+	background-color:#f0f0f0;
+	bottom:0;
+	margin:0 auto;
+	padding-top:125px;
+	z-index:9
+}
+.no-result .img {
+	margin:0 auto;
+	width:70px;
+	display:block
+}
+.no-result .text {
+	margin-top:15px;
+	color:#999
+}
+.btn-submit {
+	background-color:#ee562c;
+	color:#fff;
+	font-size:17px;
+	line-height:45px
+}

@@ -1,0 +1,104 @@
+body, html {
+	background:#f2f2f2;
+	height:100%
+}
+.navbar .btn-right {
+	font-size:16px;
+	line-height:44px;
+	height:44px
+}
+.count-down {
+	background-color:#fff9e6;
+	line-height:1.2;
+	padding:14px;
+	text-align:center;
+}
+.count-down .text {
+	font-size:12px;
+	color:#9d7f51;
+	display:inline-block
+}
+.count-down .time {
+	display:inline-block;
+	color:#ff5636;
+	font-size:16px
+}
+.product-info {
+	background:#fff;
+	overflow:hidden
+}
+.product-info .item {
+	margin:15px
+}
+.product-info .left {
+	width:70px;
+	font-size:14px;
+	color:#999;
+	float:left
+}
+.product-info .right {
+	line-height:1.4;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-family:Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans
+}
+.purchase-type {
+	background:#fff;
+	margin-top:15px
+}
+.purchase-type .item {
+	display:none;
+	margin-left:68px;
+	height:63px;
+	line-height:63px;
+	position:relative;
+	border-bottom:1px solid #e6e6e6
+}
+.purchase-type .item.selected .check {
+	background-position:0 -24px
+}
+.purchase-type .item .icon {
+	float:left;
+	position:relative;
+	top:15px;
+	margin-left:-50px;
+	width:32px;
+	height:32px;
+	background-size:32px 64px;
+	background-image:url(../images/pay-types.0a62856b.png);
+    background-position-y: 0px;
+}
+.purchase-type .item .icon.icon-wechat {
+	background-position-y:-32px
+}
+.purchase-type .item .check {
+	position:absolute;
+	right:22px;
+	top:23px;
+	background-image:url(../images/checkGreen.dfa9c75e.png);
+	background-size:24px 48px;
+	width:24px;
+	height:24px
+}
+.purchase-type .item .name {
+	float:left
+}
+.btn-buy {
+	width:100%;
+	height:50px;
+	position:fixed;
+	bottom:0;
+	text-align:center;
+	color:#fff;
+	font-size:17px;
+	background:#ff2661;
+	line-height:50px
+}
+.u-btn-orderdetail {
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+}
